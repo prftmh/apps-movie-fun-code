@@ -39,4 +39,5 @@ public class AlbumsDatabaseConfig {
     PlatformTransactionManager albumsTransactionManager(EntityManagerFactory albumsEntityManagerFactory) {
         return new JpaTransactionManager(albumsEntityManagerFactory);
     }
+
 }
